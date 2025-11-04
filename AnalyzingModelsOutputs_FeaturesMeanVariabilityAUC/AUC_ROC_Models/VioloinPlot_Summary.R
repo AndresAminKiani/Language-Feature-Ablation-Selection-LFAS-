@@ -2,7 +2,7 @@
 library(readxl)
 library(ggplot2)
 library(tidyr)
-list.files(path = "/Users/susmusharma/Desktop/Classes_Records/First_Year_Paper/R_Codes/New_R_Codes_for_AllChildren/AnalyzingModelsOutputs_FeaturesMeanVariabilityAUC/AUC_ROC_Models")
+list.files(path = "***")
 Summary_data <- read_excel("Sumary_performance_200Runs.xlsx")
 Summary_data$Performance_Model <- Summary_data$Performance_Model/100
 Summary_data$All_threshold <- NULL
