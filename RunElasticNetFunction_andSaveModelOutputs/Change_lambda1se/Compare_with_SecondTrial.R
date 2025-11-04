@@ -9,10 +9,8 @@ library(readxl)
 library(purrr)
 library(dplyr)
 
-file1_path <- "/Users/susmusharma/Desktop/Classes_Records/First_Year_Paper/R_Codes/New_R_Codes_for_AllChildren/RunElasticNetFunction_andSaveModelOutputs/ModelsOutputTrain_200iterations.xlsx"
-file2_path <- "/Users/susmusharma/Desktop/Classes_Records/First_Year_Paper/R_Codes/New_R_Codes_for_AllChildren/RunElasticNetFunction_andSaveModelOutputs/Change_lambda1se/ModelsOutputTrain_200iterations_Lambda1se.xlsx"
-#file1_path <- "/Users/susmusharma/Desktop/Classes_Records/First_Year_Paper/R_Codes/New_R_Codes_for_AllChildren/RunElasticNetFunction_andSaveModelOutputs/FeatureandCoefficients_200iterations.xlsx"
-#file2_path <- "/Users/susmusharma/Desktop/Classes_Records/First_Year_Paper/R_Codes/New_R_Codes_for_AllChildren/RunElasticNetFunction_andSaveModelOutputs/Change_lambda1se/FeatureandCoefficients_200iterations_Lambda1se.xlsx"
+file1_path <- "RunElasticNetFunction_andSaveModelOutputs/ModelsOutputTrain_200iterations.xlsx"
+file2_path <- "RunElasticNetFunction_andSaveModelOutputs/Change_lambda1se/ModelsOutputTrain_200iterations_Lambda1se.xlsx"
 
 # Get sheet names from each file
 sheets1 <- excel_sheets(file1_path)
