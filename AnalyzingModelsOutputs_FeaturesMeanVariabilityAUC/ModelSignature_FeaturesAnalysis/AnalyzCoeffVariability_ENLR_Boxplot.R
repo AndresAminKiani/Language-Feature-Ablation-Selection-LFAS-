@@ -16,7 +16,7 @@ find_file <- function(filename) {
   if (length(path) == 0) stop(paste("File", filename, "not found!"))
   if (length(path) > 1) warning("Multiple files found. Using the first one.")
   return(path[1])}
-path <- "/Users/susmusharma/Desktop/Classes_Records/First_Year_Paper/R_Codes/New_R_Codes_for_AllChildren/RunElasticNetFunction_andSaveModelOutputs/FeatureandCoefficients_200iterations.xlsx"
+path <- "***"
 
 # reading data from all sheets 
 Features <- import_list(path , rbind=TRUE) 
@@ -40,7 +40,7 @@ VarandCoeff <- data.frame(ENLRVariables, MeanCoefficient, NumofOccurence)
 VarandCoeff <- 
   format(VarandCoeff[order(VarandCoeff$NumofOccurence,VarandCoeff$MeanCoefficient, 
                            decreasing = T), ], scientific=F)
-path <- "/Users/susmisharma/Desktop/ExperimentalMeasures_DLDvsTD_Elastic"
+path <- "***"
 # openxlsx::write.xlsx(VarandCoeff, 
 #           file = paste(path, '/Var_MeanCoeff_SelectionNum.xlsx', sep = ""))
 
